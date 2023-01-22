@@ -7,7 +7,7 @@
 	<authorUrl>none</authorUrl>
 	<copyright>none corp</copyright>
 	<license>Apache License</license>
-	<version>0.1</version>
+	<version>0.2</version>
 	<description>joomlaCoffeThem</description>
 	<files>
 		<filename>index.php</filename>
@@ -16,8 +16,10 @@
 		<folder>css</folder>
 	</files>
  <positions>
-        <position>main-menu</position>
-        <position>Shop_custom_statya</position>
+        <position>MainMenu_Navigation-bar</position>
+        <position>Search_for_sait</position>
+        <position>Blog_stati</position>
+        <position>LoginForm_coffe</position>
 
     </positions>
 

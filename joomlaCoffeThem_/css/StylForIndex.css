@@ -12,6 +12,7 @@ body {
 }
 
 .topnav {
+
   overflow: hidden;
   background-color: #333;
   font-family: 'Russo One', sans-serif;
@@ -50,8 +51,8 @@ body {
 
 .navbarmainmenusearch2{
 
-  margin-left: 870px;
-  margin-top: -70px;
+  margin-left: 1055px;
+  margin-top: -50px;
 
 }
 
@@ -89,7 +90,7 @@ h1{
 }
 
 .loginblock{
-  background-color: ;
+  background-color: #666;
 }
 
 .logindiv{
@@ -97,5 +98,85 @@ h1{
   border-radius: 15px;
   margin: 10px;
   padding: 30px;
-  margin-left: 1100px;
+  margin-left: 1500px;
+  margin-right: 50px;
+  text-align: right;
+  margin-top: -100px;
+
+}
+
+p{
+  padding: 3px;
+}
+
+.blog-div{
+  margin-top: 0px;
+
+}
+
+.blogclass{
+
+}
+
+
+button {
+  position: relative;
+  background-color: #555;
+  border: none;
+ 
+  color: #FFFFFF;
+  padding: 7px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+   }
+
+   input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.endlinediv{
+  background-color: #444;
+
+
+}
+
+.endline-div{
+ background-color: #444;
+ font-size: 20px;
+ opacity: 70%;
+ padding: 5px;
+  transition: 0.7s;
+  margin-top: 50px;
+}
+
+.endline-div:hover{
+  transition: 0.4s;
+  opacity: 100%;
 }

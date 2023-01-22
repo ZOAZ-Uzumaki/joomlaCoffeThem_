@@ -4,10 +4,10 @@
 	<creationDate>2023-01-22</creationDate>
 	<author>ZOAZ</author>
 	<authorEmail>timurkosenko2020@gmail.com</authorEmail>
-	<authorUrl>none</authorUrl>
+	<authorUrl>https://github.com/ZOAZ-Uzumaki</authorUrl>
 	<copyright>none corp</copyright>
 	<license>Apache License</license>
-	<version>0.2</version>
+	<version>0.3</version>
 	<description>joomlaCoffeThem</description>
 	<files>
 		<filename>index.php</filename>
@@ -20,6 +20,8 @@
         <position>Search_for_sait</position>
         <position>Blog_stati</position>
         <position>LoginForm_coffe</position>
+        <position>BackGroundText</position>
+        <position>none</position>
 
     </positions>
 

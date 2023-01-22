@@ -27,7 +27,7 @@
 
 <!-- <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/favicon.ico" alt="Custom image" class="customImage" /> -->
 
- </body>  <!--   <jdoc:include type="modules" name="main-menu" />    -->
+  <!--   <jdoc:include type="modules" name="main-menu" />    -->
 
 
  <div class="topnav">
@@ -40,14 +40,20 @@
 
 <jdoc:include type="modules" name="top" /> 
 <jdoc:include type="component" />
+
+<div class="blog-div"><a  href="" class="blogclass"><jdoc:include type="modules" name="Blog_stati"/></a></div>
+
 <div class="logindiv"><a class="loginblock" href=""><jdoc:include type="modules" name="LoginForm_coffe"/></a></div>
 
-<a href=""><jdoc:include type="modules" name="Blog_stati"/></a>   
+<jdoc:include type="modules"  name="bottom" /> 
+
+
+
+<div  class="endline-div">  <jdoc:include type="modules"  name="BackGroundText" /> <p> </p> <title>backEnd</title> </div>
 
 
 
 
-
-<jdoc:include type="modules" name="bottom" /> 
+ </body>
 </html>
 

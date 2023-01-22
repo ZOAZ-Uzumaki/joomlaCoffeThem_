@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>joomlaCoffeThem</name>
+	<creationDate>2023-01-22</creationDate>
+	<author>ZOAZ</author>
+	<authorEmail>timurkosenko2020@gmail.com</authorEmail>
+	<authorUrl>none</authorUrl>
+	<copyright>none corp</copyright>
+	<license>Apache License</license>
+	<version>0.1</version>
+	<description>joomlaCoffeThem</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+ <positions>
+        <position>main-menu</position>
+        <position>Shop_custom_statya</position>
+
+    </positions>
+
+        <files>
+        <folder>js/</folder>
+        <folder>css/</folder>
+        <folder>html/</folder>
+        <file>error.php</file>
+        <file>index.php</file>
+        <folder>images/</folder>
+
+    </files>
+
+
+</extension>
